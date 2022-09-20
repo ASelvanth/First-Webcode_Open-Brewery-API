@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Open Brewery API </title>
+    <style>
+        body{
+            font-family:sans-serif;
+            background: rgb(246, 245, 249);
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+        
+            justify-content: space-around;
+
+        }     
+        
+        .header {
+            padding: 75px;
+            text-align: center;
+            background: #11a688;
+            color: white;
+            font-size: 30px;
+            column-rule-width: 100%;
+        }
+        
+        .breweries-container{
+            width:300px;
+            height: 475px;
+            background: rgb(252, 252, 252);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 3px 3px 10px 0 rgba(157, 153, 153, 0.1); 
+            transition: 0.3s;
+            
+        }
+
+        .breweries-container:hover{
+            transform: scale(1.1);
+            background: #7ee1cd;
+
+        }
+
+        .breweries-container:hover .name{
+           color:snow; 
+        }
+
+        .breweries-container span{
+            font-weight:bold ;
+
+        }
+        .breweries-container img{
+            width:100%;
+            aspect-ratio: 4/3;
+            object-fit:cover;
+
+        }
+        .content-container{
+            padding:16px;
+        }
+
+        .image{
+            width: 30%;
+            height: 750%;
+        }
+
+
+    </style>
+    <link src="style.css">
+</head>
+<body>
+
+       
+
+    <div class="header" >
+        <h1>OPEN BREWERY API 🍺</h1>
+        <p>Lets you celebrate the Moments 🍾 </p>
+        
+      </div>
+      <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXZcP_JOGXcJ-VtLou3O3UjTe_a81sQK6lsg&usqp=CAU">
+
+           
+        
+    
+    <script src="script.js"> </script>
+    
+</body>
+</html>
